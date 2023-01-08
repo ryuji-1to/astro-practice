@@ -14,7 +14,8 @@ import { Hello } from '../components/Hello.jsx';
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
     <Test test="test" />
-    <Hello />
+    <Hello text="not client:load jsx component"  />
+    <Hello text="client:load jsx component" client:load />
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
