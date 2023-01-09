@@ -7,7 +7,7 @@ export const Hello = ({ text = "hello" }) => {
   }, []);
 
   return (
-    <div>
+    <div className="font-3xl">
       <p>
         {text} {state}
       </p>
